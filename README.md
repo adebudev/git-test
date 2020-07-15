@@ -34,6 +34,7 @@ This command is used to obtain a repository from an existing URL
 This command adds a file to the staging area.
 
 ```git add [file]```
+
 This command adds one or more to the staging area.
 
 ```git add *```
@@ -42,6 +43,7 @@ This command adds one or more to the staging area.
 This command records or snapshots the file permanently in the version history.
 
 ```git commit -m '[ Type in the commit message]'```
+
 This command commits any files you’ve added with the git add command and also commits any files you’ve changed since then.
 
 ```git commit -a```
@@ -50,9 +52,11 @@ This command commits any files you’ve added with the git add command and also 
 This command shows the file differences which are not yet staged.
 
 ```git diff```
+
 This command shows the differences between the files in the staging area and the latest version present.
 
 ```git diff –staged```
+
 This command shows the differences between the two branches mentioned.
 
 ```git diff [first branch] [second branch]```
@@ -61,9 +65,11 @@ This command shows the differences between the two branches mentioned.
 This command unstages the file, but it preserves the file contents.
 
 ```git reset [file]```
+
 This command undoes all the commits after the specified commit and preserves the changes locally.
 
 ```git reset [commit]```
+
 This command discards all history and goes back to the specified commit.
 
 ```git reset –hard [commit]```
@@ -79,9 +85,11 @@ This command deletes the file from your working directory and stages the deletio
 ```git rm [file]```
 
 ### Git log
+
 This command is used to list the version history for the current branch.
 
 ```git log```
+
 This command lists version history for a file, including the renaming of files also.
 
 ```git log -follow[file]```
@@ -100,9 +108,11 @@ This command is used to give tags to the specified commit.
 This command lists all the local branches in the current repository.
 
 ```git branch```
+
 This command creates a new branch.
 
 ```git branch [branch name]```
+
 This command deletes the feature branch.
 
 ```git branch -d [branch name]```
@@ -111,6 +121,7 @@ This command deletes the feature branch.
 This command is used to switch from one branch to another.
 
 ```git checkout [branch name]```
+
 This command creates a new branch and also switches to it.
 
 ```git checkout -b [branch name]```
@@ -129,12 +140,15 @@ This command is used to connect your local repository to the remote server.
 This command sends the committed changes of master branch to your remote repository.
 
 ```git push [variable name] master```
+
 This command sends the branch commits to your remote repository.
 
 ```git push [variable name] [branch]```
+
 This command pushes all branches to your remote repository.
 
 ```git push –all [variable name]``
+
 This command deletes a branch on your remote repository.
 
 ```git push [variable name] :[branch name]```
@@ -148,12 +162,15 @@ This command fetches and merges changes on the remote server to your working dir
 This command temporarily stores all the modified tracked files.
 
 ```git stash save```
+
 This command restores the most recently stashed files.
 
 ```git stash pop```
+
 This command lists all stashed changesets.
 
 ```git stash list```
+
 This command discards the most recently stashed changeset.
 
 ```git stash drop```
