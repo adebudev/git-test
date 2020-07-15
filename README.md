@@ -142,12 +142,13 @@ This command sends the committed changes of master branch to your remote reposit
 ```git push [variable name] master```
 
 This command sends the branch commits to your remote repository.
+</b>
 
 ```git push [variable name] [branch]```
 
 This command pushes all branches to your remote repository.
 
-```git push –all [variable name]``
+```git push –all [variable name]```
 
 This command deletes a branch on your remote repository.
 
